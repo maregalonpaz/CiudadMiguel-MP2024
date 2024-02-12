@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo de Florencia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(192, 218, 241);
+        }
+    </style>
+    <script defer src="function.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/ztTjQB89v6U?autoplay=1&loop=1&playlist=ztTjQB89v6U" frameborder="0" allowfullscreen></iframe>
+  <header id="header">
+    <img id="banderaFl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Florence.svg/1280px-Flag_of_Florence.svg.png"
+        width="120px">
+    <div id="titulo">
+        <h1>FLORENCIA</h1>
+        <h2>La Cuna del Renacimiento</h2>
+    </div>
+    <img id="banderaIt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png"
+        width="120px">
+  </header>
+
+  <main>
+
+    <div id="section1">
+        <h3 id="subtitulo">La ciudad:</h3>
+        <p> Florencia (Firenze en Italiano) es una ciudad situada en el norte de la región central de Italia, capital y ciudad más poblada de la ciudad metropolitana homónima y de la región de Toscana, de la que es su centro histórico, artístico, económico y administrativo. Cuenta con unos 378 239 habitantes y es el centro de un área metropolitana de aproximadamente un millón y medio de habitantes.
+            Capital de Italia entre 1865 y 1871 durante la Unificación italiana, en la Edad Media fue un importante centro cultural, económico y financiero. Conoció su época de mayor esplendor tras la instauración del Gran Ducado de Toscana bajo el dominio de la dinastía Médici.
+            Florencia es el núcleo urbano en el que se originó en la segunda mitad del siglo xiv el movimiento artístico denominado Renacimiento, y se la considera una de las cunas mundiales del arte y de la arquitectura así como también una de las ciudades más hermosas del mundo.</p>
+        <div id="slider-container">
+            <div id="slider">
+            <div class="slide"><img src="https://mywowo.net/media/images/cache/firenze_santa_maria_novella_01_piazza_jpg_1200_630_cover_85.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="https://www.italia.it/content/dam/tdh/es/destinations/toscana/firenze/ponte-vecchio/media/2480X1000_ponte_vecchio_destination.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="https://www.visittuscany.com/shared/visittuscany/immagini/dom-ge9bcfe839_1920.jpg?__scale=w:1920,h:1000,t:2,q:85" alt="Imagen 3"></div>
+            <div class="slide"><img src="https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2019/12/27/david-de-miguel-angel.png" alt="Imagen 4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2">
+        <h3 id="subtitulo">Monumentos Importantes:</h3>
+        <p>Florencia es una ciudad conocida a nivel mundial por su patrimonio artístico y arquitectónico. El estilo artístico más extendido en la ciudad es el renacentista, creado en la misma ciudad en la segunda mitad del siglo xiv, aunque también cuenta con un importante patrimonio de otros estilos arquitectónicos y artísticos. Su centro histórico fue declarado Patrimonio de la Humanidad por la Unesco en 1982. Alguno de los monumentos que pertenecen al Patrimonio de Florencia son:</p>
+        <h4>Catedral de Santa María del Fiore:</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/View_of_Santa_Maria_del_Fiore_in_Florence.jpg/1280px-View_of_Santa_Maria_del_Fiore_in_Florence.jpg" alt="" id="monImg">
+        <p>El monumento más importante de la ciudad. Símbolo de la riqueza y del poder de la capital toscana durante los siglos xiii y siglo xiv, la catedral florentina es uno de los edificios más grandes de la cristiandad. Forma un conjunto monumental junto al Baptisterio de San Juan y el Campanile de Giotto.</p>
+        <h4>Galería de los Uffizi:</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Florence%2C_Italy_Uffizi_Museum_-_panoramio_%285%29.jpg/1280px-Florence%2C_Italy_Uffizi_Museum_-_panoramio_%285%29.jpg" alt="" id="monImg">
+        <p>Antiguamente era un palacio que pertenecía a la familia de los Uffizi, pero en la actualidad actúa de museo. Si bien tiene obras representativas de hasta veinte siglos atrás (como piezas romanas y griegas del siglo i a. C., así como colecciones de la Edad Media y modernas), Uffizi es famosa por sus obras maestras del Trecento, el Prerrenacimiento, el Renacimiento y el Barroco,</p>
+        <h4>Plaza de la Señoría:</h4>
+        <img id="monImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Piazza_Signoria_-_Firenze.jpg/1920px-Piazza_Signoria_-_Firenze.jpg" alt="">
+        <p>Localizada en el centro de la ciudad, esta plaza ha sido muy importante para los florentinos desde siempre. Desde el Palacio de mismo nombre, se estableció la República Florentina y actuó de ayuntamiento durante años. Está muy bien conectada con otros monumentos importantes de la ciudad.</p>
+    </div>
+
+    <div id="pregunta1">
+        <h3 id="primeraPregunta">¿Qué nombre recibe el campanario de la Catedral?</h3>
+        <button onclick="responder(false)">Alpino</button>
+        <button onclick="responder(false)">Faber-Castell</button>
+        <button onclick="responder(true)">Giotto</button>
+        <button onclick="responder(false)">Staedtler</button>
+        <p id="respuesta"></p>
+    </div>
+
+    <div id="section3">
+        <h3 id="subtitulo">Personajes Importantes:</h3>
+        <p>Durante el Renacimiento, innumerables personajes han caminado por sus calles, capaces de transformar las humanidades, el arte y la política, personajes que han pasado a los anales de la Historia por sus contribuciones no solo a la ciudad, sino también a toda la humanidad. Algunos de estos personajes son:</p>
+        <h4>Lorenzo Dè Medici</h4>
+        <img src="https://cdn.zendalibros.com/wp-content/uploads/2022/12/lorenzo-de-medicis-nacimiento.png" alt="" id="medici">
+        <p>Conocido como "El Magnífico", Lorenzo fue el gobernante de facto de la República de Florencia. Su mecenazgo fue una de la principales causas del desarrollo del Renacimiento, ya que permitió que muchos de los artistas pudieran crear sus obras. Su muerte marca el final de la Edad de Oro de la ciudad de Florencia.</p>
+        <h4>Leonardo Da Vinci</h4>
+        <img id="leo" src="https://static.nationalgeographic.es/files/styles/image_3200/public/01-leonardo-da-vinci-book-talk.jpg?w=1900&h=2279" alt="">
+        <p>Probablemente una de las personas más famosas de la historia. Símbolo del hombre del Renacimiento y conocido principalmente por su cuadro de la Mona Lisa. A parte de pintor, también es conocido por proponer diferentes invenciones que siglos más tarde se harían realidad </p>
+        <h4>Filippo Brunelleschi</h4>
+        <img id="filippo" src="https://ciudadesrenacentistas.files.wordpress.com/2017/02/filippo-brunelleschi.jpg" alt="">
+        <p>Orfebre, arquitecto, escultor, fueron algunas de las profesiones que Brunelleschi desarrolló a lo largo de su vida. Conocido principalmente por contruir la cúpula de la catedral de Florencia, también creó el concepto de la perspectiva lineal. </p>
+    </div>
+
+    <div id="links">
+        <h3>Enlaces Web de Interés:</h3>
+        <a href="http://www.florencia.es/">Guía Online</a>
+        <br>
+        <a href="https://www.visituffizi.org/es/">Web de la Galería de los Uffizi</a>
+        <br>
+        <a href="https://www.italia.it/es/toscana/florencia">Guía del Gobierno Italiano</a>
+        <br>
+        <a href="https://www.civitatis.com/es/florencia/">Civitatis Florencia</a>
+    </div>
+    
+  </main>
+</body>
+</html>

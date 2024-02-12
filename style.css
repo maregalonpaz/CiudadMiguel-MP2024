@@ -1,0 +1,89 @@
+#header{
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+}
+
+#banderaFl{
+    padding-right: 5%;
+
+}
+
+#subtitulo{
+    border-bottom: solid;
+}
+
+#banderaIt{
+    padding-left: 5%
+}
+
+#section1{
+    text-align: justify;
+    font-family: 'Macondo', cursive;
+}
+
+#slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#slider {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+    min-width: 100%;
+    flex: 1;
+    overflow: hidden;
+}
+#slider img {
+    width: 100%;
+    height: auto;
+}
+
+#section2{
+    font-family: 'Macondo', cursive;
+    text-align: justify;
+}
+
+#pregunta1{
+    text-align: center;
+}
+
+#section3{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+}
+#titulo{
+    display: inline-block;
+}
+
+
+
+#monImg{
+    width: 100%;
+}
+
+#medici{
+    width: 40%;
+    border-radius: 100%;
+}
+
+#leo{
+    width: 35%;
+    border-radius: 25%;
+}
+
+#filippo{
+    width: 35%;    
+}
+
+#links{
+    width: 300px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
