@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- En Edge si que se escucha -->
     <iframe width="0" height="0" src="https://www.youtube.com/embed/ztTjQB89v6U?autoplay=1&loop=1&playlist=ztTjQB89v6U" frameborder="0" allowfullscreen></iframe>
   <header id="header">
     <img id="banderaFl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Florence.svg/1280px-Flag_of_Florence.svg.png"
@@ -62,12 +63,12 @@
         <p>Localizada en el centro de la ciudad, esta plaza ha sido muy importante para los florentinos desde siempre. Desde el Palacio de mismo nombre, se estableció la República Florentina y actuó de ayuntamiento durante años. Está muy bien conectada con otros monumentos importantes de la ciudad.</p>
     </div>
 
-    <div id="pregunta1">
+    <div id="pregunta">
         <h3 id="primeraPregunta">¿Qué nombre recibe el campanario de la Catedral?</h3>
-        <button onclick="responder(false)">Alpino</button>
-        <button onclick="responder(false)">Faber-Castell</button>
-        <button onclick="responder(true)">Giotto</button>
-        <button onclick="responder(false)">Staedtler</button>
+        <button id="boton" onclick="responder(false)">Alpino</button>
+        <button id="boton" onclick="responder(false)">Faber-Castell</button>
+        <button id="boton" onclick="responder(true)">Giotto</button>
+        <button id="boton" onclick="responder(false)">Staedtler</button>
         <p id="respuesta"></p>
     </div>
 
@@ -83,6 +84,15 @@
         <h4>Filippo Brunelleschi</h4>
         <img id="filippo" src="https://ciudadesrenacentistas.files.wordpress.com/2017/02/filippo-brunelleschi.jpg" alt="">
         <p>Orfebre, arquitecto, escultor, fueron algunas de las profesiones que Brunelleschi desarrolló a lo largo de su vida. Conocido principalmente por contruir la cúpula de la catedral de Florencia, también creó el concepto de la perspectiva lineal. </p>
+    </div>
+
+    <div id="pregunta">
+        <h3 id="segundaPregunta">¿Quien pintó la Mona Lisa?</h3>
+        <button id="boton" onclick="responder(false)">Raffaello Sanzio</button>
+        <button id="boton" onclick="responder(false)">Michelangelo Buonarroti</button>
+        <button id="boton" onclick="responder(true)">Leonardo Da Vinci</button>
+        <button id="boton" onclick="responder(false)">Donatello</button>
+        <p id="respuesta"></p>
     </div>
 
     <div id="links">

@@ -47,18 +47,27 @@
     text-align: justify;
 }
 
-#pregunta1{
+#pregunta{
     text-align: center;
+    
+}
+
+#boton{
+    cursor: pointer;
+    border-radius: 25%;
+    background-color: gold;
+    color: black;
 }
 
 #section3{
     font-family: 'Macondo', cursive;
     text-align: center;
 }
+
+
 #titulo{
     display: inline-block;
 }
-
 
 
 #monImg{
